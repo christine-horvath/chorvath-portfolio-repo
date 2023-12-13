@@ -1,13 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-import NavBar from "./App";
+import NavBar from "./NavBar";
 import reportWebVitals from "./reportWebVitals";
+import Hero from "./Hero";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <NavBar />
+    <div className="min-h-screen bg-light-pink">
+      <div className="px-2">
+        <NavBar />
+        <Hero/>
+      </div>
+    </div>
   </React.StrictMode>,
 );
 

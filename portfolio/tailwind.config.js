@@ -8,7 +8,11 @@ module.exports = {
       'berry': '#8A0049',
       'light-pink': '#FFE0F1'
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        'kalnia': ['Kalnia', 'serif']
+      },
+    },
   },
   plugins: [],
 };
