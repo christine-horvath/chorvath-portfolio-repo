@@ -9,10 +9,8 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <div className="min-h-screen bg-light-pink">
-      <div className="px-2">
-        <NavBar />
-        <Hero/>
-      </div>
+      <NavBar />
+      <Hero/>
     </div>
   </React.StrictMode>,
 );

@@ -1,8 +1,8 @@
 function NavBar() {
   return (
-    <div>
+    <div className="px-2">
       <header className="flex flex-col items-start text-3xl">
-        <div className="font-medium	inline-flex px-20 py-8 min-w-full text-berry">
+        <div className="text-lg	inline-flex px-20 py-2 min-w-full text-berry">
           <a
             className="hover:underline"
             href="./"
